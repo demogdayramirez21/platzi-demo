@@ -11,7 +11,7 @@ describe('<Footer />', () => {
   });
 
   test('render title', () => {
-    expect(footer.find('.Footer-title').text()).toEqual('Platzi');
+    expect(footer.find('.Footer-title').text()).toEqual('Platzi Store');
   });
 });
 
